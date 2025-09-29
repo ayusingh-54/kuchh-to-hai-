@@ -1,0 +1,37 @@
+# Minimal Enhanced Requirements - Compatible with existing environment
+# This extends your current requirements.txt with only essential new packages
+
+# Core packages (already in requirements.txt - don't install again)
+# langchain==0.3.27
+# langchain-core==0.3.72  
+# langchain-community (install separately if needed)
+# langchain-openai==0.3.28
+# langgraph==0.6.1
+# langgraph-checkpoint-sqlite==2.0.11
+# streamlit==1.47.1
+# openai==1.98.0
+# python-dotenv==1.1.1
+# requests==2.32.4
+
+# Additional packages for enhanced multi-agent features
+duckduckgo-search
+asyncio-throttle
+
+# Social media APIs (optional - for real integrations)
+# tweepy==4.14.0
+# python-linkedin-v2==1.1.5
+
+# YouTube processing (already installed)
+# youtube-transcript-api==0.6.2
+# pytube==15.0.0
+
+# Development utilities
+loguru==0.7.2
+aiofiles
+
+# Web scraping (optional)
+# beautifulsoup4==4.12.3
+
+# For future API endpoints (optional)
+# fastapi==0.115.6
+# uvicorn==0.32.1
