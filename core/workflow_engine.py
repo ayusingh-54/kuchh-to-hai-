@@ -13,8 +13,8 @@ from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 import logging
 
-from .state_management import WorkflowState, state_manager
-from ..agents.base_agent import BaseAgent, agent_registry
+from core.state_management import WorkflowState, state_manager
+from agents.base_agent import BaseAgent, agent_registry
 
 logger = logging.getLogger(__name__)
 

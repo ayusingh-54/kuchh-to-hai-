@@ -6,7 +6,8 @@ and provides utilities for managing conversation state, memory, and context.
 """
 
 from typing import TypedDict, Annotated, List, Dict, Any, Optional
-from langchain_core.messages import BaseMessage, add_messages
+from langchain_core.messages import BaseMessage
+from langgraph.graph.message import add_messages
 import json
 import sqlite3
 from datetime import datetime
